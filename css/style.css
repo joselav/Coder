@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 80px;
+    background-color: #040522;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 0.7fr 2.3fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:"logo . nav nav nav nav nav" ;
+}
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.mainindex {
+    width: 100vw;
+    height: 2790px;
+}
+
+.logo {
+    height: 80px;
+    padding: 6px;
+    grid-area: logo;
+} 
+
+.botnav {
+    height: 80px;
+    grid-area: nav;
+
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+}
+.boton {
+    flex-direction: column;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #FFE81F;
+    list-style: none;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.boton:hover {
+    background-color: red;
+    color: white;
+}
+
+.imgav {
+    width: 100vw;
+    height: 110vh;
+}
+
+.avengersimg {
+    width: auto;
+    height: 110vh;
+}
+
+.info {
+    width: 100vw;
+    height: 1200px;
+    padding-top: 35px;
+}
+
+.mcu {
+    width: 85vw;
+    margin: auto;
+}
+
+.studio {
+    display: block;
+    margin: auto;
+}
+
+.pmcu {
+    width: 70vw;
+    margin: auto;
+    padding: 30px;
+}
+
+.pmcu p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.avengers {
+    width: 100vw;
+    height: 830px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows:0.3fr 1fr;
+    grid-template-areas: 
+    "img img"
+    "av txt";
+}
+
+.logoavengers {
+    margin-left:180px;
+    grid-area: img;
+
+}
+
+.imgavengers {
+    grid-area: av;
+}
+
+.pavengers {
+    grid-area: txt;
+}
+
+.pavengers p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.botper {
+    width: 20vw;
+    height: 65px;
+    background-color: red;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.botper h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+
+.botper:hover{
+    background-color: #FFE81F;
+    height: 60px;
+}
+
+.botper h2:hover {
+    color: black;
+}
+
+.peli{
+    width: 70vw;
+    height: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Oswald',sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+
+iframe {
+    margin: 20px 150px;
+}
+
+footer {
+    background-color: #040522;
+    width: 100vw;
+    height: 100px;
+}
+
+.redes {
+    width: 13vw;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    padding: 20px;
+}
+
+.socials {
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+}
+
+.tw{
+    padding: 4px;
+}
+
+.yt {
+    padding: 3px;
+}
+
+.ig {
+    padding: 3px;
+}
+
+.socials:hover{
+    background-color: #fff;
+}
+
+/* PERSONAJES*/
+
+.contenedor {
+    width: 100vw;
+    height: 6680px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.personajes {
+    margin: 10px;
+}
+
+.fondoimg {
+    width: 290px;
+    height: 430px;
+    margin: auto;
+}
+.imgper {
+    height: 430px;
+}
+
+.cajatxt{
+    width: 380px;
+    height: 200px;
+    margin: auto;
+
+}
+
+.txtper {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.pper {
+    font-family: 'Oswald', sans-serif ;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.personajes:hover{
+    background-color:#f2f2f2;
+    border-radius: 20px;
+
+}
+
+
+/* C R O N O L O G Í A */
+.botones__link{
+ text-decoration: none;
+}
+.main__crono {
+    width: 70%;
+    height: 4200px;
+    margin: auto;
+}
+
+.container__movie:hover {
+    background-color: #ddd;
+}
+
+.movie__pic {
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    height: 270px;
+}
+
+.movies {
+    height: 250px;
+}
+
+.movie__info {
+    width: 60%;
+    margin: auto;
+}
+
+.movie__txt {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.main__titulo {
+    width: 30vw;
+    margin: auto;
+}
+
+.main__titulo__txt{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width:1023px) {
+    #header {
+        grid-template-columns: 0.7fr 0.2fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .logomarvel{
+        height: 55px;
+    }
+
+    .logo {
+        height: 60px;
+        margin: auto;
+    } 
+    
+    .botnav {
+        height: 60px;
+    
+    }
+
+    .boton {
+        width: 95px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+    .mainindex {
+        height: 2290px;
+    }
+
+
+    .imgav {
+            height: 576px;
+        }
+        
+    .avengersimg {
+            height: 575.5px;
+        }
+    
+    .info {
+        height: 1100px;
+    }
+    
+    .studio {
+        height: 120px;
+    }
+    
+    .pmcu p {
+        font-size: 20px;
+    }
+
+    .tta {
+        height: 380px;
+    }
+    
+    .logoavengers {
+        margin: auto;
+    
+    }
+    
+    
+    .pavengers p {
+        font-size: 23px;
+        padding: 20px;
+    }
+    
+    .botper {
+        height: 50px;
+    }
+    
+    .botper h2{
+        font-size: 25px;
+    }
+    
+    .botper:hover{
+        height: 55px;
+    }
+    
+    .peli{
+        width: 75vw;
+        height: 550px;
+        margin: auto;
+    }
+    
+    iframe {
+        margin: auto;
+    }
+
+
+                                /*PERSONAJES*/
+
+
+                                .contenedor {
+                                    height: 10020px;
+                                    grid-template-columns: 1fr 1fr;
+                                    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                                }
+
+
+                                .fondoimg {
+                                    width: 235px;
+                                    height: 350px;
+                                }
+                                .imgper {
+                                    height: 350px;
+                                }
+
+                                .txtper {
+                                    font-size: 30px;
+                                }
+
+
+/*C R O N O L O G Í A*/
+.main__crono {
+    height: 7100px;
+}
+}
+
+
+ 
+
+
+@media screen and (max-width:767px) {
+    header {
+        height: 140px;
+    }
+    
+    #header {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "logo logo logo logo logo logo"
+        "nav nav nav nav nav nav" ;
+    }
+
+
+    .boton {
+            height: 30px;
+        }
+
+
+    .imgav {
+                height: 430px;
+            }
+            
+    .avengersimg {
+                height: 430px;
+            }
+
+    .mainindex {
+        height: 1950px;
+    }
+
+    .avengers {
+        width: 100vw;
+        height: 1090px;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows:0.3fr 1fr 2fr;
+        grid-template-areas: 
+        "img img"
+        "av av"
+        "txt txt";
+    }
+    
+    .info {
+        height: 1150px;
+    }
+    
+    .pmcu p {
+        font-size: 18px;
+    }
+
+    .imgavengers {
+        width: 91vw;
+        height:390px;
+        margin: auto;
+    }
+
+    .tta {
+        height: 390px;
+
+    }
+    
+    .logoavengers {
+        margin: auto;
+    }
+    
+    
+    .pavengers p {
+        font-size: 18px;
+        padding: 8px;
+    }
+    
+    .botper {
+        width: 240px;
+        height: 60px;
+    }
+    
+    .botper h2{
+        font-size: 25px;
+    }
+    
+    .botper:hover{
+        height: none;
+    }
+    
+    .peli{
+        width: 55vw;
+        height: 350px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+    
+    iframe {
+        width: 440px;
+        height: 250px;
+        margin: auto;
+    }
+
+    footer {
+        background-color: #040522;
+        width: 100vw;
+        height: 80px;
+        margin: auto;
+    }
+    
+    .redes {
+        width: 30vw;
+        height: 50px;
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 1fr;
+        margin: auto;
+        padding: 5px;
+    }
+
+
+
+    
+/*HASTA ACÁ ESTA HECHO*/
+
+    /*DESDE ACÁ NO*/
+
+    
+
+                                /*PERSONAJES*/
+
+
+                                .contenedor {
+                                    height: 15900px;
+                                    grid-template-columns: 1fr ;
+                                    grid-template-rows: repeat(30, 0.3fr);
+                                }
+
+
+                                .fondoimg {
+                                    width: 190px;
+                                    height: 280px;
+                                }
+                                .imgper {
+                                    height: 280px;
+                                }
+
+                                .txtper {
+                                    font-size: 30px;
+                                }
+
+    /*C R O N O L O G Í A*/
+.main__crono {
+    height: 12840px;
+}
+.movie__info {
+    width: 50%;
+    margin: auto;
+}
+.movie__pic {
+    width: 45%;
+    margin: auto;
+    padding: 15px;
+    height: 270px;
+}
+}
